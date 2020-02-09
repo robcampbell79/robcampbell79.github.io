@@ -1,3 +1,15 @@
+@-webkit-keyframes dayandnight {
+    0% {background-color: #00ffff;}
+    25% {background-color: #ff33cc;}
+    50% {background-color: #00264d;}
+    75% {background-color: #ff6699;}
+    90% {background-color: #b3ffff;}
+    100% {background-color: #1affff;}
+}
+
 body {
-    background-color: pink;
+    background-color: #b3ffff;
+    animation-name: dayandnight;
+    animation-iteration-count: infinite;
+    animation-duration: 40s;
 }
